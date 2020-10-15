@@ -74,9 +74,6 @@
   shell: bundle exec rake tmp:cache:clear
   args:
     chdir: "{{ redmine_path }}"
-  shell: bundle exec rake tmp:sessions:clear
-  args:
-    chdir: "{{ redmine_path }}"
 
 
 - name: Copiar Proxy
